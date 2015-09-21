@@ -12,6 +12,6 @@ I found these two sites useful for learning to build a website with Jekyll:
 <br>
 <a href="http://joshualande.com/jekyll-github-pages-poole/">Beautiful and minimal Jekyll blog by Joshua Lande</a> 
 <br>
-<a href = "http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial">Jekyll by example by Andrew Munsell</a>
+<a href="http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial">Jekyll by example by Andrew Munsell</a>
 <br>
 <br>
