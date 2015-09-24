@@ -51,9 +51,9 @@ layout: default
 
 --->
 <table width="1000" cellspacing="15">
-	<tr colspan="3"><h3>News, or things that I think (trying table):</h3><br><br></tr>
-	<tr>
+	<tr colspan="3"><h3>News, or things that I think (trying table, move tr):</h3><br><br></tr>
 	<div class="posts">
+		<tr>
 	{% for post in site.posts limit:3 %}
 		
 		<td width="33%">
@@ -71,8 +71,9 @@ layout: default
 <!---		<td>&nbsp;&nbsp;&nbsp;</td> --->
 		
 	{% endfor %}
-	</div>
 	</tr>
+	</div>
+	
 </table>
 
 </html>
