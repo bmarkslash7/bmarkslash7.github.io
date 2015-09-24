@@ -47,11 +47,11 @@ layout: default
 </table>
 
 <table width="1000">
-	<td><h3>News, or things that I think:</h3></td>
+	<tr><h3>News, or things that I think:</h3></tr>
 
 	<div class="posts">
 	{% for post in site.posts %}
-		<td>
+		<tr>
 		<article class="post">
 
 		<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
@@ -62,7 +62,7 @@ layout: default
 
 		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 		</article>
-		</td>
+		</tr>
 	{% endfor %}
 	</div>
 </table>
