@@ -50,8 +50,11 @@ layout: default
 <h3>News, or things that I think:</h3><br><br> 
 
 <table width="1000" cellspacing="15">
+	
 	<div class="posts">
+		
 	{% for post in site.posts limit:3 %}
+	
 		<td valign="top" width="33%">
 		<article class="post">
 		<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
@@ -62,8 +65,11 @@ layout: default
 		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 		</article>
 		</td>
+		
 	{% endfor %}
+	
 	</div>
+	
 </table>
 
 </html>
