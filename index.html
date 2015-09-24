@@ -10,39 +10,47 @@ layout: default
 --->
 <html>
 <br>
-<h3>Who am I?</h3>
-I am an ecologist whose research interests revolve around understanding how individual-level interactions, such as competition or herbivory, scale up to affect dynamics at the population, metapopulation, and landscape levels. To answer my questions, I use mathematical models, computer simulations, laboratory experiments, and field biology to develop, test, and refine predictions.  I am currently developing mathematical models to understand the effects of various plant defenses on herbivore population dynamics and the feedback between the two systems as an attempt to use bottom-up processes to mitigate pest outbreaks.  I also use mathematical models and field experiments to quantify the effects of spatial arrangement of populations on the maintenance of the sexes.  Please see my <a href="/research">research page</a> for more information
-<br>
-<br>
-I am currently in the <a href="http://www.case.edu/artsci/biol/abbottlab/CWRU/Home.html">Abbott Lab</a> at <a href = "http://case.edu/">Case Western Reserve University.</a> 
-<br> 
-<br>
-I collaborate with the <a href="http://blogs.cornell.edu/katjapoveda/">Poveda Lab</a> at <a href=cornell.edu">Cornell University.</a>
-<br>
-<br>
 
+<table width = "1000">
+<tr>
+	<h3>Who am I?</h3>
+	I am an ecologist whose research interests revolve around understanding how individual-level interactions, such as competition or herbivory, scale up to affect dynamics at the population, metapopulation, and landscape levels. To answer my questions, I use mathematical models, computer simulations, laboratory experiments, and field biology to develop, test, and refine predictions.  I am currently developing mathematical models to understand the effects of various plant defenses on herbivore population dynamics and the feedback between the two systems as an attempt to use bottom-up processes to mitigate pest outbreaks.  I also use mathematical models and field experiments to quantify the effects of spatial arrangement of populations on the maintenance of the sexes.  Please see my <a href="/research">research page</a> for more information
+	<br>
+	<br>
+	I am currently in the <a href="http://www.case.edu/artsci/biol/abbottlab/CWRU/Home.html">Abbott Lab</a> at <a href = "http://case.edu/">Case Western Reserve University.</a> 
+	<br> 
+	<br>
+	I collaborate with the <a href="http://blogs.cornell.edu/katjapoveda/">Poveda Lab</a> at <a href=cornell.edu">Cornell University.</a>
+	<br>
+	<br>
+</tr>
+<tr>
+	<h3>Some things I am responsible for:</h3>
+	<a href="https://github.com/bmarkslash7/QPot">QPot:</a> An R package for stochastic differential equation quasi-potential analysis
+	<br><a href="https://github.com/bmarkslash7/logTHIS">LogTHIS:</a> A low-powered datalogger for Temperature, Humidity and Irradiance Sensors 
+	<br><a href="https://github.com/bmarkslash7/bagoftricks">bag of tricks:</a> A collection of R functions as I need them and write them
+</tr>
 
-<h3>Some things I am responsible for:</h3>
-<a href="https://github.com/bmarkslash7/QPot">QPot:</a> An R package for stochastic differential equation quasi-potential analysis
-<br><a href="https://github.com/bmarkslash7/logTHIS">LogTHIS:</a> A low-powered datalogger for Temperature, Humidity and Irradiance Sensors 
-<br><a href="https://github.com/bmarkslash7/bagoftricks">bag of tricks:</a> A collection of R functions as I need them and write them
+<tr>
+	<br><br>
+	<h3>Things that I think:</h3>
 
-<br><br>
-<h3>Things that I think:</h3>
+	<div class="posts">
+	{% for post in site.posts %}
+		<article class="post">
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+		<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
 
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+		<div class="entry">
+			{{ post.excerpt }}
+		</div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+		</article>
+	{% endfor %}
+	</div>
+</tr>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+</table>
 
 </html>
