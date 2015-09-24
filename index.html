@@ -47,9 +47,12 @@ layout: default
 </table>
 
 
-<h3>News, or things that I think (cellspacing):</h3><br><br>
+<!--- <h3>News, or things that I think (cellspacing):</h3><br><br> 
 
+--->
 <table width="1000" cellspacing="15">
+	<tr colspan="3"><h3>News, or things that I think (trying table):</h3><br><br></tr>
+	<tr>
 	<div class="posts">
 	{% for post in site.posts limit:3 %}
 		
@@ -69,6 +72,7 @@ layout: default
 		
 	{% endfor %}
 	</div>
+	</tr>
 </table>
 
 </html>
