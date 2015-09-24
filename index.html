@@ -50,7 +50,7 @@ layout: default
 <h3>News, or things that I think:</h3><br><br> 
 
 <table width="1000" cellspacing="15">
-<!---	<div class="posts"> --->
+	<div class="posts">
 	{% for post in site.posts limit:3 %}
 		<td valign="top" width="33%">
 		<article class="post">
@@ -63,7 +63,7 @@ layout: default
 		</article>
 		</td>
 	{% endfor %}
-<!---	</div> --->
+	</div>
 </table>
 
 </html>
