@@ -47,9 +47,9 @@ layout: default
 </table>
 
 
-<h3>News, or things that I think (space):</h3><br><br>
+<h3>News, or things that I think (nonbreaking space):</h3><br><br>
 
-<table width="1000" cellpadding="15">
+<table width="1000">
 	<div class="posts">
 	{% for post in site.posts limit:3 %}
 		
@@ -65,6 +65,7 @@ layout: default
 		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 		</article>
 		</td>
+		<td>&nbsp;&nbsp;</td>
 		
 	{% endfor %}
 	</div>
