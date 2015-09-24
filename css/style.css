@@ -42,7 +42,7 @@ nav li a {
 .content {
   padding: 10px;
 }
- 
+/* 
 ul.entries li {
   position: relative;
   margin: 20px auto;
@@ -67,7 +67,7 @@ ul.entries a {
 ul.entries a:hover {
   color: #fff;
 }
- 
+*/ 
 footer {
   font-size: 0.65em;
   text-align: center;
