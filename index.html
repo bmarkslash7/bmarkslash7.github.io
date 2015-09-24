@@ -37,8 +37,6 @@ layout: default
 </tr>
 </table>
 
-<br><br>
-
 <table width="1000">
 <tr>
 	<h3>Some things I am responsible for:</h3>
@@ -48,23 +46,25 @@ layout: default
 </tr>
 </table>
 
-	<br><br>
-	<h3>News, or things that I think:</h3>
+<table width="1000">
+	<td><h3>News, or things that I think:</h3></td>
 
 	<div class="posts">
 	{% for post in site.posts %}
+		<td>
 		<article class="post">
 
 		<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-
+		
 		<div class="entry">
 			{{ post.excerpt }}
 		</div>
 
 		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 		</article>
+		</td>
 	{% endfor %}
 	</div>
-
+</table>
 
 </html>
