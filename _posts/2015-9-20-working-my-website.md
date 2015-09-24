@@ -10,8 +10,8 @@ Because I wanted to <a href="http://tom.preston-werner.com/2008/11/17/blogging-l
 <br>
 I found these two sites useful for learning to build a website with Jekyll:
 <br>
-<a href="http://joshualande.com/jekyll-github-pages-poole/">Beautiful and minimal Jekyll blog by Joshua Lande</a> 
+<a href="http://joshualande.com/jekyll-github-pages-poole/" target="_blank">Beautiful and minimal Jekyll blog by Joshua Lande</a> 
 <br>
-<a href="http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial">Jekyll by example by Andrew Munsell</a>
+<a href="http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial" target="_blank">Jekyll by example by Andrew Munsell</a>
 <br>
 <br>
