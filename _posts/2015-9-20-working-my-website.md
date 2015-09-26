@@ -14,4 +14,6 @@ I found these two sites useful for learning to build a website with Jekyll:
 <br>
 <a href="http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial" target="_blank">Jekyll by example by Andrew Munsell</a>
 <br>
+Added 26 September 2015:
+<a href="http://code.tutsplus.com/articles/building-static-sites-with-jekyll--net-22211" target="_blank">Building static websites with Jekyll by Andrew Burgess</a>
 <br>
