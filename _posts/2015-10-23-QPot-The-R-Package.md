@@ -1,6 +1,6 @@
 ---
 layout: post
-title: QPot: The R Package for SDEs
+title: QPot The R Package for SDEs
 ---
 
 23 October 2015
