@@ -23,6 +23,11 @@ Our R Journal article for our package QPot, has been accepted and should appear 
 QPot is currently available through CRAN.  Once we have the official R Journal article, I'll include that as a vignette and update the QPot package.
 There is an <a href = "http://arxiv.org/abs/1510.07992"> earlier version of the manuscript </a> available on arXive.
 
+<br>
+Jessica Brzyski presented our work on the within-patch and between-patch distribution of sexes and genotypes at the Botanical Society of America meeting in Savannah, Georgia.  In our study on the clonal plant <i>Marchantia inflexa>/i>, we quantified the influence of sexual reproduction and asexual reproduction on the spatial distribution of the sexes and genotypes both within a patch as well as between patches.  We found that asexual reproduction is important at both scales, in contrast to current thought that it is only important within patches.  We also found that spatial segregation of the sexes and spatial segregation of genotypes don't necessarily match up.
+
+<br>
+Kasey Keisewetter, an undergraduate researcher, presented her work on the effects of phenological mismatches between plants and their ant dispersers due to climate change at the Ecological Society of America meeting in Fort Lauderdale, Florida.  She empirically quantified the short-term effects of temperature variation on seed dispersal and then used a mathematical model to simulate the long-term effects.  The phenology of the plant relative to the activity of the forager is important and interacts with ant preference to affect the long-term dynamics.
 
 <br>
 And with all that said, back to deal with the multiple papers that came back recently and require my attention NOW!
