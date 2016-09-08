@@ -11,7 +11,7 @@ In February, our paper on the effects of plant compensatory regrowth on herbivor
 <a href="http://www.journals.uchicago.edu/doi/full/10.1086/684522"> http://www.journals.uchicago.edu/doi/full/10.1086/684522 </a>
 Long story short, plant compensatory regrowth, by themselves, can cause herbivore populations to cycle and can interact with plant resistance to produce non-intuitive effects on herbivore dynamics.
 
-Simeon Yurek and Don DeAngelis at the Faculty of 100 website have <a href="http://f1000.com/prime/726099606"> a great write-up of the paper.  </a>
+Simeon Yurek and Don DeAngelis at the Faculty of 1000 website have <a href="http://f1000.com/prime/726099606"> a great write-up of the paper.  </a>
 
 <br>
 To appear in the special issue of Evolutionary Ecology on clonal plants, our paper on the maintenance of the sexes in metapopulations of varying spatial configuration is already online.  <a href="http://link.springer.com/article/10.1007/s10682-016-9841-8"> http://link.springer.com/article/10.1007/s10682-016-9841-8 </a>
